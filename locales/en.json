@@ -1,0 +1,123 @@
+{
+  "help": {
+    "description": "For some faggot who needs help",
+    "embedTitle": "{botname} Help",
+    "embedDescription": ""
+  },
+  "loop": {
+    "description": "Toggle music loop",
+    "errorNotQueue": "There is nothing playing.",
+    "result": "Loop is now {loop}"
+  },
+  "nowplaying": {
+    "description": "show the name of the song this faggot doent know",
+    "errorNotQueue": "you dont even hear anything, wtf?",
+    "embedTitle": "now plaing",
+    "live": " ◉ LIVE",
+    "timeRemaining": "Time Remaining: {time}"
+  },
+  "pause": {
+    "description": "pause current music",
+    "errorNotQueue": "nothing is playing, you idiot?",
+    "result": "<@{author}> paused."
+  },
+  "ping": {
+    "description": "Show the bot's ping",
+    "result": "Average ping to the fucking youtube API: {ping} ms"
+  },
+  "play": {
+    "description": "play the fucking song for the idiots",
+    "errorNotChannel": "Join the fucking vc! FUCKING RETARDED SLUT",
+    "errorNotInSameChannel": "Cmon, I cant be in everywhere at the same time {user}",
+    "usageReply": "Usage: {prefix}play <YouTube URL | Video Name | Soundcloud URL>",
+    "missingPermissionConnect": "Fuck you.",
+    "missingPermissionSpeak": "I cant breathe!!",
+    "queueAdded": "**{title}** added to the q by <@{author}>",
+    "cantJoinChannel": "fuck you: {error}",
+    "queueEnded": "q ended.",
+    "queueError": "Error: {error}",
+    "startedPlaying": "playing: **{title}** {url}",
+    "skipSong": "<@{author}> skipped.",
+    "pauseSong": "<@{author}> paused.",
+    "resumeSong": "<@{author}> resumed.",
+    "unmutedSong": "<@{author}> unmuted.",
+    "mutedSong": "<@{author}> muted.",
+    "decreasedVolume": "<@{author}> volume : {volume}%",
+    "increasedVolume": "<@{author}> volume : {volume}%",
+    "loopSong": "<@{author}> loop is now {loop}",
+    "stopSong": "<@{author}> stopped.",
+    "leaveChannel": "leaving this hell",
+    "songNotFound": "not found the porn you requested",
+    "songAccessErr": "stop watching porn!"
+  },
+  "playlist": {
+    "description": "Play the fucking playlist requested",
+    "usagesReply": "Usage: {prefix}playlist <YouTube Playlist URL>",
+    "errorNotChannel": "Join the fucking VC!",
+    "errorNotInSameChannel": "Join {user}",
+    "missingPermissionConnect": "Fuck you",
+    "missingPermissionSpeak": "Fuck you",
+    "errorNotFoundPlaylist": "Cant find the fucking pornlist you requested",
+    "fetchingPlaylist": "fetching...",
+    "playlistCharLimit": "\nPlaylist larger than the fucking character limit...",
+    "startedPlaylist": "<@{author}> Started a fucking playlist",
+    "cantJoinChannel": "Could not join the fucking channel: {error}"
+  },
+  "queue": {
+    "description": "show the q",
+    "missingPermissionMessage": "no permission to add the fucking reaction",
+    "errorNotQueue": "**nothing playing in this fucking server, fucking retard**",
+    "currentPage": "current page - ",
+    "embedTitle": "Q :\n",
+    "embedCurrentSong": "**current - [{title}]({url})**\n\n{info}"
+  },
+  "remove": {
+    "description": "Remove something in q",
+    "errorNotQueue": "no q",
+    "usageReply": "Usage: {prefix}remove <Queue Number>",
+    "result": "<@{author}> removed **{title}** from q."
+  },
+  "resume": {
+    "description": "resume having sex",
+    "errorNotQueue": "you idiot.",
+    "resultNotPlaying": "<@{author}> resumed.",
+    "errorPlaying": "not paused, fucking idiot"
+  },
+  "shuffle": {
+    "description": "trolling the vc (requested by poom)",
+    "errorNotQueue": "play something, you fucking retard. how could I shuffle if the q is empty.",
+    "result": "<@{author}> q shuffled."
+  },
+  "skip": {
+    "description": "skip the fucking stupid song",
+    "errorNotQueue": "play something, you fucking retard.",
+    "result": "<@{author}> skipped."
+  },
+  "stop": {
+    "description": "stop the torture",
+    "errorNotQueue": "Nothing is playing, you faggot",
+    "result": "<@{author}>.stopped the music."
+  },
+  "uptime": {
+    "description": "Uptime checker",
+    "result": "Uptime: `{days} day,{hours} hours, {minutes} minutes, {seconds} seconds`"
+  },
+  "volume": {
+    "description": "change the fucking volume (the command for someone too lazy to right click the bot //fucking retard)",
+    "errorNotQueue": "nothing is playing.",
+    "errorNotChannel": "join the fucking VC!",
+    "currentVolume": "volume : **{volume}**",
+    "errorNotNumber": "number, number! fucking idiot",
+    "errorNotValid": "0-100, you jerk",
+    "result": "volume : **{arg}**"
+  },
+  "common": {
+    "on": "**on**",
+    "off": "**off**",
+    "enabled": "**enabled**",
+    "disabled": "**disabled**",
+    "errorNotChannel": "fuck you",
+    "cooldownMessage": "please wait {time} more second(s) before fucking reusing the `{name}` command.",
+    "errorCommand": "ERROR COMMAND, RETARD"
+  }
+}
